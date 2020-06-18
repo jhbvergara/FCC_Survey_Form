@@ -1,0 +1,65 @@
+* {
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: kg-broken-vessels;
+    src: url('fonts/KgBrokenVesselsSketch-zx1w.ttf');
+}
+
+@font-face {
+    font-family: kg-ten-thousand-reasons;
+    src: url('fonts/KGTenThousandReasons.ttf');
+}
+
+body {
+    color: white;
+    font-family: 'kg-ten-thousand-reasons';
+    background-image: url('images/crumpled-paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-container { 
+    border-radius: 16px;
+    margin: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: #2f4f4f;
+}
+
+#survey-form {
+    width: 100%;
+}
+
+#name, #email, #number {
+    outline: none;
+    font-size: 18px;
+    padding:0 10px 0 10px;
+    width: calc(100% - 94px);
+    border-radius: 25px;
+    height: 50px;
+}
+
+#dropdown {
+    margin-left: 30px;
+}
+
+.subcontainer {
+    border-radius: 16px;
+    padding: 16px 0 16px 94px;
+    background-color: #2f4f4f;
+}
+

@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>FCC Survey Form</title>
+    </head>
+    <body>
+        <div id="main-container">
+
+            <div id="title-container"> 
+                <h1 id="title">Online Learning Survey</h1>
+                <p id="description">This survey aims to collect data for improving the application of online learning</p>
+            </div>
+           
+            <form id = "survey-form" action="">
+
+                <div class="subcontainer section_one">
+                    <label for="name" id="name-label">Name:</label> <br>
+                    <input id="name" type="text" placeholder="Enter name here" required> <br>
+                    <label for="email" id="email-label">Email:</label> <br>
+                    <input id="email" type="email" placeholder="Enter email here" required> <br>
+                    <label for="number" id="number-label">Number:</label> <br>
+                    <input id="number" type="number" min="0" max="9999999999" placeholder="Enter number here" required> <br>
+                    <br>
+                    <label for="dropdown">Gender:</label>
+                    <select name="gender" id="dropdown">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select> 
+                </div> <br>
+                
+                <div class="subcontainer">
+                        <p>What is your school level?</p> <br>
+                        <input type="radio" name="school-level" value="college" checked> 
+                        <label for="college">College</label> <br>                  
+                        <input type="radio" name="school-level" value="highschool">
+                        <label for="highschool">Highschool</label> <br>
+                        <input type="radio" name="school-level" value="elementary"> 
+                        <label for="elementary">Elementary</label> <br>
+                </div>
+
+                <br>
+        
+                <div class="subcontainer">
+                    <p>What platforms do you own?</p>
+                        <input type="checkbox" id="desktop" value="desktop">
+                        <label for="desktop">Desktop</label> <br>
+                        <input type="checkbox" id="laptop" value="laptop">
+                        <label for="laptop">Laptop</label> <br>
+                        <input type="checkbox" id="mobile" value="mobile">
+                        <label for="mobile">Mobile</label> <br>
+                        <input type="checkbox" id="others" value="others">
+                        <label for="others">Others</label> <br>
+                </div> <br>
+
+       
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <br>
+                <input id="submit" type="submit">
+            </form>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
