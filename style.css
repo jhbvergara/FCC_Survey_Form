@@ -38,6 +38,7 @@ body {
     text-align: center;
     width: 100%;
     background-color: #2f4f4f;
+    box-shadow: 3px 9px 6px black;
 }
 
 #survey-form {
@@ -54,6 +55,11 @@ body {
 }
 
 #dropdown {
+    padding-left: 8px;
+    font-family: 'kg-ten-thousand-reasons';
+    font-size: 12px;
+    border-radius: 24px;
+    outline: none;
     margin-left: 30px;
 }
 
@@ -61,5 +67,28 @@ body {
     border-radius: 16px;
     padding: 16px 0 16px 94px;
     background-color: #2f4f4f;
+    box-shadow: 3px 9px 6px black;
 }
 
+#comments {
+    font-family: 'kg-ten-thousand-reasons';
+    font-size: 24px;
+    color: black;
+}
+
+textarea {
+    font-family: 'kg-ten-thousand-reasons';
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    height: 200px;
+    outline: none;
+}
+
+#submit {
+    background-color: gold;
+    width: 100%;
+    font-family: 'kg-ten-thousand-reasons';
+    font-size: 24px;
+    margin-bottom: 50px;
+}
